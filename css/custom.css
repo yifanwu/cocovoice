@@ -79,14 +79,15 @@ p {
 
 }
 
-#section2, #section4{
+#section2, #section4, #section6{
   background: white;  
   height: 640px;
   color: #545454;
 }
 
-#section2 #backimg {
-  margin-left: 80px;
+#section2 #backimg2 {
+  margin-top: 30px;
+  margin-left: 120px;
   height: 600px;
   background: url(../assets/ptt_hand.jpg) no-repeat;
   background-size:350px 600px;
@@ -124,9 +125,16 @@ p {
 #section4 #backimg4 {
   margin-top: 60px;
   margin-left: 80px;
-  height: 486px;
+  height: 400px;
   background: url(../assets/winks_coverflow.jpg) no-repeat;
   background-size:482px 400px;  
+}
+
+#section5 #backimg5 {
+  height: 480px;
+  background: url(../assets/questions_phone.png) no-repeat;
+  background-size:410px 480px;  
+
 }
 
 #footnote {
