@@ -1,0 +1,42 @@
+
+#contact_header {
+  height:300px;
+  background: url(../assets/green_background.png) no-repeat;        
+  background-size:1100px 300px;
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #contact_header {
+    height:400px;
+    background-size:1100px 400px;
+  }
+
+}
+
+#contact_body {
+  background: white;
+  height: 300px;
+}
+
+#store_wrapper {
+  height: 200px;
+  width: 200px;
+}
+
+.store_vertical {
+  padding: 10px 0px 0px 60px;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #contact_body {
+    height: 900px;
+  }
+
+}
+
+#contact_body a {
+  color: green;
+}

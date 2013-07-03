@@ -2,30 +2,37 @@ body {
   padding-bottom: 40px;
   background: #eeeeee;
   font-family: HelveticaNeue;
-  text-shadow: 1px 1px 1px #FFF;   
+  text-shadow: 1px 1px 1px #FFF;  
 }
 
-
 h1 {
-  font-size: 53px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 29px;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 /*making fonts smaller for smaller screens*/
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   h1 {
     font-size: 30px;
   }
 
   h2 {
     font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
   }
 
   p {
@@ -41,7 +48,7 @@ p {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .container-narrow, .row-fluid, .row {
     margin:0px;
     padding: 0px;
@@ -56,7 +63,7 @@ p {
 }
 
 .inner {
-  padding: 20px 70px 20px 70px;
+  padding: 40px 70px 20px 70px;
 }
 
 #section1 #header {
@@ -69,8 +76,23 @@ p {
   padding-top: 20px;
 }
 
+@media (max-width: 480px) {
+  #language_button {
+    float: none;
+    margin: auto;
+    padding-top: 20px;
+  }
+}
+
 #logo {
   float:left;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+  #logo {
+    padding-bottom: 20px;
+  }
 }
 
 #tag_line {
@@ -96,6 +118,12 @@ p {
   padding-top: 10px;  
 }
 
+.stores img {
+  width: 60;
+  height: 20;
+
+}
+
 #section2, #section4, #section6{
   background: white;  
   height: 640px;
@@ -104,7 +132,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   #section2 {
     height: 1280px;
   }
@@ -150,7 +178,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   #section3 {
     height: 1080px;
   }
@@ -170,7 +198,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   #section4 {
     height: 1000px;
   }
@@ -190,7 +218,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   #section5 {
     height: 920px;
   }
@@ -205,15 +233,14 @@ p {
 
 #section6 #backimg6 {
   height: 460px;
-  margin-left: 80px;
-  
+  margin: 80px 0px 0px 100px;
   background: url(../assets/publicchat_earth.png) no-repeat;
-  background-size:520px 460px;  
+  background-size:390px 345px;  
 
 }
 
 /* Landscape phones and down */
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   #section6 {
     height: 920px;
   }
@@ -228,9 +255,13 @@ p {
 
 #footnote {
   line-height:0.1em; 
-  margin:10px 0 20px; 
-
+  height: 0;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
 
 .footer {
   padding-top: 10px;
@@ -252,4 +283,53 @@ p {
   src: url('../assets/HelveticaNeueLTStd-Th.otf');
   font-weight: normal;
   font-style: normal;
+}
+
+
+
+#contact_header {
+  height:300px;
+  background: url(../assets/green_background.png) no-repeat;        
+  background-size:1100px 300px;
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #contact_header {
+    height:400px;
+    background-size:1100px 400px;
+  }
+
+}
+
+#contact_body {
+  background: white;
+  height: 300px;
+}
+
+#store_wrapper {
+  height: 200px;
+  width: 200px;
+}
+
+.store_vertical {
+  padding: 10px 0px 0px 60px;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #contact_body {
+    height: 900px;
+  }
+
+}
+
+#contact_body a {
+  color: green;
+}
+
+/*terms*/
+#terms_body {
+  padding: 20px;
 }
