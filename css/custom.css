@@ -86,7 +86,6 @@ p {
 @media (max-width: 480px) {
   #language_button {
     float: none;
-    margin: auto;
     padding-top: 20px;
   }
 }
@@ -107,7 +106,6 @@ p {
   margin-left: 20px;  
   color: white;
   height: 40px;
-
 }
 
 #description {
@@ -138,13 +136,6 @@ p {
   margin-left: 0px;
 }
 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-  #section2 {
-    height: 1280px;
-  }
-}
-
 #section2 #backimg2 {
   margin-top: 30px;
   margin-left: 100px;
@@ -152,14 +143,17 @@ p {
   background: url(../assets/ptt_hand.jpg) no-repeat;
   background-size:350px 600px;
 }
-#section2 #ptt_girl {
-  height: 20px;
-  margin: auto;
-  clear: both;
+
+#ptt_girl{
+  padding-top: 40px;
+  padding-right: 20px;
+  float: right;
 }
-#section2 #ptt_boy {
-  margin-top:100px;
-  clear: both;
+
+#ppt_boy {
+  padding-top: 220px;
+  margin-left: -40px;
+  float:left;
 }
 
 #section2 img {
@@ -169,6 +163,17 @@ p {
 #setion2 .right_col {
   padding-top: 40px;
   background: white;  
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #section2 {
+    height: 1280px;
+  }
+  #section2 #backimg2 {
+    background-size: 320px 550px;
+  }
 }
 
 
