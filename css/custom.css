@@ -18,35 +18,35 @@ p {
   font-size: 18px;
 }
 
-@media (max-width: 480px) {
+/*making fonts smaller for smaller screens*/
+@media (max-width: 320px) {
   h1 {
-  font-size: 30px;
-}
+    font-size: 30px;
+  }
 
-h2 {
-  font-size: 20px;
-}
+  h2 {
+    font-size: 20px;
+  }
 
-p {
-  font-size: 12px;
-}
+  p {
+    font-size: 12px;
+  }
 }
 /* Custom container */
 .container-narrow {
   margin-top: 0px;
   max-width: 1100px;
+  min-width: 320px;
   margin:0 auto;
 }
 
-.container-narrow > hr {
-  margin: 30px 0;
-}
 
-@media (max-width: 480px) {
-  .container-narrow {
+@media (max-width: 320px) {
+  .container-narrow, .row-fluid, .row {
     margin:0px;
     padding: 0px;
   }
+
 }
 
 #section1 {
@@ -104,7 +104,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   #section2 {
     height: 1280px;
   }
@@ -150,7 +150,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   #section3 {
     height: 1080px;
   }
@@ -170,7 +170,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   #section4 {
     height: 1000px;
   }
@@ -190,7 +190,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   #section5 {
     height: 920px;
   }
@@ -213,7 +213,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   #section6 {
     height: 920px;
   }
