@@ -223,7 +223,7 @@ p {
   }
   #section2 #backimg2 {
     background-size: 100% auto;
-    height: 480px;
+    height: 420px;
   }
 }
 
@@ -246,7 +246,7 @@ p {
   }
 
   #section3 #backimg3 {
-    height: 480px;
+    height: 420px;
     margin-left: 10%;
     background-size:90% auto; 
   }
@@ -278,7 +278,7 @@ p {
 }
 
 #section5 #backimg5 {
-  height: 450px;
+  height: 420px;
   background: url(../assets/questions_phone.png) no-repeat;
   background-size:auto 100% ;  
   margin-right:auto; margin-left:0px;
