@@ -105,9 +105,11 @@ p {
     float: none;
     padding-top: 20px;
   }
-  #inner {
-    padding: 0px;
+  .inner {
+    padding: 2%;
+    margin: 2%;
   }
+
 }
 
 #logo {
@@ -204,6 +206,7 @@ p {
   }
   #section2 #backimg2 {
     background-size: 100% auto;
+    height: 500px;
   }
 }
 
@@ -226,6 +229,7 @@ p {
   }
 
   #section3 #backimg3 {
+    height: 450px;
     margin-left: 10%;
     background-size:90% auto; 
   }
@@ -234,7 +238,7 @@ p {
 #section4 #backimg4 {
   margin-top: 60px;
   margin-left: 80px;
-  height: 400px;
+  height: 370px;
   background: url(../assets/winks_coverflow.jpg) no-repeat;
   background-size:90% auto;  
 }
@@ -252,7 +256,7 @@ p {
 }
 
 #section5 #backimg5 {
-  height: 480px;
+  height: 450px;
   background: url(../assets/questions_phone.png) no-repeat;
   background-size:410px 480px;  
   margin-right:auto; margin-left:0px;
@@ -267,7 +271,7 @@ p {
   #section5 #backimg5 {
     margin-left: 10%;
     background-size:80% auto; 
-    height: 400px;
+    height: 370px;
   }
 }
 
