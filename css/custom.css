@@ -96,7 +96,7 @@ p {
 
 #language_button {
   float: right;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 
@@ -124,7 +124,7 @@ p {
 
 #logo {
   float:left;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 #tag_line {
@@ -135,7 +135,7 @@ p {
 }
 
 #description {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
   font-size: 15px;
   margin-left: 20px;  
@@ -148,10 +148,15 @@ p {
 @media (max-width: 480px) {
   #logo {
     padding-top: 30px;
-    padding-bottom: 20px;
-    width: 90%;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  #tag_line {
+    margin-left: 5%;
   }
   #description {
+    margin-left: 5%;
+
     width: 90%;
   }
 }
