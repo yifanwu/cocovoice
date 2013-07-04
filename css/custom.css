@@ -35,7 +35,8 @@ p {
 /*making fonts smaller for smaller screens*/
 @media (max-width: 480px) {
   h1 {
-    font-size: 30px;
+    font-size: 25px;
+    font-style: bold;
   }
 
   h2 {
@@ -106,8 +107,8 @@ p {
     padding-top: 20px;
   }
   .inner {
-    padding: 2%;
-    margin: 2%;
+    padding: 5%;
+    margin: 5%;
   }
 
 }
@@ -138,6 +139,7 @@ p {
 @media (max-width: 480px) {
   #logo {
     padding-bottom: 20px;
+    width: 100%;
   }
   #description {
     width: 90%;
@@ -184,7 +186,7 @@ p {
 }
 
 #ppt_boy {
-  padding-top: 220px;
+  padding-top: 160px;
   margin-left: -40px;
   float:left;
 }
