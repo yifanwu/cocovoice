@@ -40,17 +40,17 @@ p {
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     line-height: 100%;
   }
 
   h3 {
-    font-size: 1em;
+    font-size: 1.4em;
     line-height: 100%;
   }
 
   p {
-    font-size: 0.8em;
+    font-size: 1.2em;
     line-height: 120%;
   }
 }
@@ -80,7 +80,7 @@ p {
   padding: 40px 70px 20px 50px;
 }
 
-#section1 #header {
+#header {
   padding: 10px;
   margin-bottom: 40px;
   height: 80px;
@@ -292,7 +292,7 @@ p {
   }
   #section6 #backimg6 {
     margin-left: 5%;
-    background-size:90% auto; 
+    background-size:80% auto; 
     height: 300px;
   }
 }
@@ -327,8 +327,6 @@ p {
   font-weight: normal;
   font-style: normal;
 }
-
-
 
 #contact_header {
   height:300px;
