@@ -5,7 +5,6 @@ html,body {
 }
 
 body {
-  padding-bottom: 40px;
   background: #eeeeee;
   font-family: HelveticaNeue;
   text-shadow: 0px 1px 1px #FFF;  
@@ -56,9 +55,13 @@ p {
 }
 /* Custom container */
 .container-narrow {
-  margin-top: 0px;
-  width: 1100px;
   margin:0 auto;
+  padding: 0px;
+  width: 1100px;
+  background-color: white;
+  -moz-box-shadow: 0px 3px 8px rgb(100,100,100);
+  -webkit-box-shadow: 0px 3px 8px rgb(100,100,100);
+  box-shadow: 0px 3px 10px rgb(100,100,100);
 }
 
 
@@ -91,6 +94,7 @@ p {
   padding-top: 20px;
 }
 
+
 @media (max-width: 480px) {
   #section1 {
     height: 600px;
@@ -103,7 +107,7 @@ p {
 
   #language_button {
     float: none;
-    padding-top: 20px;
+    padding-bottom: 30px;
   }
   .inner {
     padding: 5%;
@@ -294,15 +298,15 @@ p {
     margin-left: 5%;
     background-size:80% auto; 
     height: 300px;
+
   }
 }
-
 #footnote {
-  line-height:0.1em; 
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  background: url(../assets/footer_c.png) no-repeat;
+  background-position:top center;
+  position: relative;  
+  height: 30px;
 }
 
 
