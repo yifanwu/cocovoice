@@ -12,12 +12,14 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 54px;
   padding-left: 0px;
+  line-height: 120%;
+
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 32px;
   line-height: 120%;
 
 }
@@ -35,7 +37,7 @@ p {
 /*making fonts smaller for smaller screens*/
 @media (max-width: 480px) {
   h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     font-style: bold;
   }
 
@@ -50,7 +52,7 @@ p {
   }
 
   p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 120%;
   }
 }
