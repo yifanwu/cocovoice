@@ -273,7 +273,7 @@ p {
   #section4 #backimg4 {
     margin-left: 10%;
     background-size:90% auto; 
-    height: 270px;
+    height: 250px;
   }
 }
 
@@ -288,7 +288,7 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section5 {
-    height: 640px;
+    height: 680px;
   }
   #section5 #backimg5 {
     margin-left: 5%;
@@ -313,8 +313,8 @@ p {
   }
   #section6 #backimg6 {
     margin-left: 5%;
-    background-size:80% auto; 
-    height: 260px;
+    background-size:90% auto; 
+    height: 230px;
 
   }
 }
