@@ -117,9 +117,9 @@ p {
     padding: 5%;
     margin: 0% 5% 5% 5%;
   }
-
-
-
+  .inner_text {
+    padding: 40px 20% 20px 5%;
+  }
 }
 
 #logo {
@@ -185,7 +185,7 @@ p {
   margin-left: 20%;
   background: url(../assets/ptt_hand.jpg) no-repeat;
   background-size: 90% auto;
-  height: 500px;
+  height: 460px;
   
 }
 
@@ -218,7 +218,7 @@ p {
   }
   #section2 #backimg2 {
     background-size: 100% auto;
-    height: 500px;
+    height: 480px;
   }
 }
 
@@ -228,7 +228,7 @@ p {
 
 #section3 #backimg3 {
   margin-left:auto; margin-right:0px;
-  height: 500px;
+  height: 460px;
   background: url(../assets/groupchat_phone.png) no-repeat;
   background-size:415px 540px;
 
@@ -241,7 +241,7 @@ p {
   }
 
   #section3 #backimg3 {
-    height: 520px;
+    height: 480px;
     margin-left: 10%;
     background-size:90% auto; 
   }
@@ -286,8 +286,8 @@ p {
     height: 640px;
   }
   #section5 #backimg5 {
-    margin-left: 10%;
-    background-size:80% auto; 
+    margin-left: 5%;
+    background-size:90% auto; 
     height: 420px;
   }
 }
@@ -383,7 +383,7 @@ p {
 }
 
 #contact_body a {
-  color: green;
+  color: #72bb01;
 }
 
 /*terms*/
