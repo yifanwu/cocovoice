@@ -35,22 +35,22 @@ p {
 /*making fonts smaller for smaller screens*/
 @media (max-width: 480px) {
   h1 {
-    font-size: 25px;
+    font-size: 2em;
     font-style: bold;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 1.5em;
     line-height: 100%;
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 1em;
     line-height: 100%;
   }
 
   p {
-    font-size: 15px;
+    font-size: 0.8em;
     line-height: 120%;
   }
 }
@@ -68,7 +68,6 @@ p {
     padding: 0px;
     width: 100%;
   }
-
 }
 
 #section1 {
@@ -139,7 +138,7 @@ p {
 @media (max-width: 480px) {
   #logo {
     padding-bottom: 20px;
-    width: 100%;
+    width: 90%;
   }
   #description {
     width: 90%;
