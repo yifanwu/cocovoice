@@ -36,21 +36,23 @@ p {
 
   h2 {
     font-size: 20px;
+    line-height: 100%;
   }
 
   h3 {
     font-size: 15px;
+    line-height: 100%;
   }
 
   p {
     font-size: 12px;
+    line-height: 120%;
   }
 }
 /* Custom container */
 .container-narrow {
   margin-top: 0px;
-  max-width: 1100px;
-  min-width: 300px;
+  width: 1100px;
   margin:0 auto;
 }
 
@@ -59,6 +61,7 @@ p {
   .container-narrow, .row-fluid, .row {
     margin:0px;
     padding: 0px;
+    width: 100%;
   }
 
 }
@@ -66,11 +69,11 @@ p {
 #section1 {
   height:500px;
   background: url(../assets/header_bg.jpg) no-repeat;        
-  background-size:1100px 520px;
+  background-size: auto 100%;
 }
 
 .inner {
-  padding: 40px 70px 20px 70px;
+  padding: 40px 70px 20px 50px;
 }
 
 #section1 #header {
@@ -84,21 +87,21 @@ p {
 }
 
 @media (max-width: 480px) {
+  #section1 {
+    height: 600px;
+  }
   #language_button {
     float: none;
     padding-top: 20px;
+  }
+  #inner {
+    padding: 10px 20px 5px 10px;
   }
 }
 
 #logo {
   float:left;
   padding-bottom: 40px;
-}
-
-@media (max-width: 480px) {
-  #logo {
-    padding-bottom: 20px;
-  }
 }
 
 #tag_line {
@@ -115,8 +118,17 @@ p {
   margin-left: 20px;  
   color: white;
   text-shadow: 0.5px 0.5px 0.5px #FFF; 
-  width:250px;
+  width:45%;
 
+}
+
+@media (max-width: 480px) {
+  #logo {
+    padding-bottom: 20px;
+  }
+  #description {
+    width: 90%;
+  }
 }
 
 .stores {
@@ -146,7 +158,7 @@ p {
 
 #ptt_girl{
   padding-top: 40px;
-  padding-right: 20px;
+  padding-right: 20%;
   float: right;
 }
 
@@ -169,10 +181,10 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section2 {
-    height: 1280px;
+    height: 900px;
   }
   #section2 #backimg2 {
-    background-size: 320px 550px;
+    background-size: 100% auto;
   }
 }
 
@@ -192,7 +204,7 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section3 {
-    height: 1080px;
+    height: 900px;
   }
 
   #section3 #backimg3 {
@@ -212,7 +224,7 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section4 {
-    height: 1000px;
+    height: 800px;
   }
   #section4 #backimg4 {
     margin-left: 20px;
@@ -232,7 +244,7 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section5 {
-    height: 920px;
+    height: 820px;
   }
   #section5 #backimg5 {
     margin-top: 20px;
@@ -254,14 +266,13 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section6 {
-    height: 920px;
+    height: 820px;
   }
   #section6 #backimg6 {
     margin-top: 20px;
     margin-left: 10px;
     background-size:320px 285px; 
     height: 300px;
-
   }
 }
 
@@ -273,7 +284,6 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 
 .footer {
   padding-top: 10px;
@@ -332,7 +342,7 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #contact_body {
-    height: 900px;
+    height: 800px;
   }
 
 }
