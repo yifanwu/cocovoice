@@ -263,12 +263,12 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section4 {
-    height: 720px;
+    height: 740px;
   }
   #section4 #backimg4 {
     margin-left: 10%;
     background-size:90% auto; 
-    height: 300px;
+    height: 270px;
   }
 }
 
@@ -288,7 +288,7 @@ p {
   #section5 #backimg5 {
     margin-left: 5%;
     background-size:90% auto; 
-    height: 420px;
+    height: 400px;
   }
 }
 
@@ -309,7 +309,7 @@ p {
   #section6 #backimg6 {
     margin-left: 5%;
     background-size:80% auto; 
-    height: 290px;
+    height: 260px;
 
   }
 }
