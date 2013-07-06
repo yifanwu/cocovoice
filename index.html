@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Coco Voice</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
   <meta name="description" content="Coco Voice Website">
   <meta name="author" content="Yifan Wu">
 
@@ -25,6 +26,11 @@
   <div id="section1">
     <div class="inner">
       <div id="header">
+        <select id="language_select" onchange="location = this.options[this.selectedIndex].value;">
+          <option value="index.html" selected="selected">English</option>
+          <option value="index_spanish.html">Spanish</option>
+        </select>
+
         <div id="language_button" class="btn-group">
           <a class="btn dropdown-toggle btn-success" data-toggle="dropdown" href="#">
             English

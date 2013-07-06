@@ -101,6 +101,9 @@ p {
   padding-top: 10px;
 }
 
+#language_select {
+  visibility:hidden;
+}
 
 @media (max-width: 480px) {
   #section1 {
@@ -114,13 +117,23 @@ p {
 
   #language_button {
     float: none;
+    visibility:hidden;
+    height: 0px;
+    pointer-events: none;
   }
+
+  #language_select {
+    visibility:visible;
+  }
+
+
   .inner {
     padding: 5%;
     margin: 0% 5% 5% 5%;
   }
   .inner_text {
-    padding: 40px 20% 20px 5%;
+    padding: 5%;
+    margin: 0% 5% 5% 5%;
   }
 }
 
@@ -130,10 +143,10 @@ p {
 }
 
 #tag_line {
+
   font-size: 25px;
   margin-left: 20px;  
   color: white;
-  height: 40px;
 }
 
 #description {
@@ -142,9 +155,11 @@ p {
   font-size: 15px;
   margin-left: 20px;  
   color: white;
-  text-shadow: 0px 0.5px 0.5px #FFF; 
   width:45%;
+}
 
+#tag_line, #description {
+  text-shadow: 0px -1px 1px #FFF;   
 }
 
 @media (max-width: 480px) {
@@ -155,12 +170,14 @@ p {
   }
   #tag_line {
     margin-left: 5%;
+    font-size:20px;
   }
   #description {
     margin-left: 5%;
 
     width: 90%;
   }
+
 }
 
 .stores {
@@ -234,10 +251,10 @@ p {
 }
 
 #section3 #backimg3 {
-  margin-left:auto; margin-right:0px;
   height: 460px;
   background: url(../assets/groupchat_phone.png) no-repeat;
-  background-size:415px 540px;
+  background-size:auto 100%;
+  margin-right:auto; margin-left:0px;
 
 }
 
@@ -249,14 +266,15 @@ p {
 
   #section3 #backimg3 {
     height: 420px;
-    margin-left: 10%;
+    margin-left: 5%;
     background-size:90% auto; 
+
   }
 }
 
 #section4 #backimg4 {
   margin-top: 60px;
-  margin-left: 80px;
+  margin-left: 5%;
   height: 370px;
   background: url(../assets/winks_coverflow.jpg) no-repeat;
   background-size:90% auto;  
@@ -273,7 +291,7 @@ p {
     height: 740px;
   }
   #section4 #backimg4 {
-    margin-left: 10%;
+    margin-left: 5%;
     background-size:90% auto; 
     height: 250px;
   }
