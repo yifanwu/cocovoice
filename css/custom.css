@@ -372,7 +372,7 @@ p {
 #contact_header {
   height:300px;
   background: url(../assets/green_background.png) no-repeat;        
-  background-size:1100px 300px;
+  background-size:auto 100%;
 }
 
 
@@ -380,7 +380,7 @@ p {
 @media (max-width: 480px) {
   #contact_header {
     height:500px;
-    background-size:1100px 500px;
+    background-size:auto 100%;
   }
 
 }

@@ -22,25 +22,24 @@
 <body>
   <div class="container-narrow row-fluid ">
     <div id="contact_header">
-      <div class="inner">
+    <div class="inner">
       <div id="header">
-        <div id="language_button"class="btn-group">
-          <button class="btn btn-success"><b>Spanish</b></button>
-          <button class="btn btn-success dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+        <select id="language_select" onchange="location = this.options[this.selectedIndex].value;">
+          <option value="about.html" selected="selected">English</option>
+          <option value="about_spanish.html">Spanish</option>
+        </select>
+        <div id="language_button" class="btn-group">
+          <a class="btn dropdown-toggle btn-success" data-toggle="dropdown" href="#">
+            Spanish
+            <span class="caret"></span>
+          </a>
           <ul class="dropdown-menu">
-            <li><a href="about.html">English</a></li>
+              <li><a href="about.html">English</a></li>
           </ul>
         </div>
 
-        <a href="index.html"> <img id="logo" src="assets/header_coco_logo.png"></a>
-        
+        <a href="index.html"> <img id="logo" src="assets/header_coco_logo.png"></a> 
       </div>
-
-
-        <a href="index.html"> <img id="logo" src="assets/header_coco_logo.png"></a>
-        
-      </div>
-
       <div class="stores span2" style="clear:left;">
         <a href="http://itunes.apple.com/us/app/coco-voice/id449598981?mt=8&uo=4">
           <img src="assets/header_dl_apple.png">
@@ -64,6 +63,7 @@
       </div><!--innter-->
     </div><!--main body-->
 
+
   <div id="footnote">
   </div>
 
@@ -85,7 +85,7 @@
   </div>
 
   <div class="footer">
-    <p>Copyright &copy; 2013 Instanza Inc. <br>All rights reserved</p>
+    <p>2013 &copy; Instanza Inc.</p>
   </div>
 
 

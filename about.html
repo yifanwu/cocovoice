@@ -24,13 +24,17 @@
     <div id="contact_header">
     <div class="inner">
       <div id="header">
+        <select id="language_select" onchange="location = this.options[this.selectedIndex].value;">
+          <option value="about.html" selected="selected">English</option>
+          <option value="about_spanish.html">Spanish</option>
+        </select>
         <div id="language_button" class="btn-group">
           <a class="btn dropdown-toggle btn-success" data-toggle="dropdown" href="#">
             English
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-              <li><a href="index_spanish.html">Spanish</a></li>
+              <li><a href="about_spanish.html">Spanish</a></li>
           </ul>
         </div>
 
@@ -63,8 +67,7 @@
   <div id="footnote">
   </div>
 
-  <div id="bottom_row">
-    <div class="row">
+    <div id="bottom_row" class="row inner">
       <div class="span3">
         <h2><a href="contact.html">contact</a></h2>
       </div>
@@ -78,10 +81,9 @@
         <h2><a href="faq.html">help</a></h2>
       </div>
     </div>
-  </div>
 
   <div class="footer">
-    <p>Copyright &copy; 2013 Instanza Inc. <br>All rights reserved</p>
+    <p>2013 &copy; Instanza Inc.</p>
   </div>
 
 
