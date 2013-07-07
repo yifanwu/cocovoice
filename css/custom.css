@@ -353,7 +353,8 @@ p {
 }
 
 #bottom_row {
-  text-align: center;  
+  text-align: center; 
+  margin-left: 3%; 
 }
 
 @font-face {
@@ -381,6 +382,9 @@ p {
   #contact_header {
     height:500px;
     background-size:auto 100%;
+  }
+  #bottom_row {
+    margin-left: 0; 
   }
 
 }
