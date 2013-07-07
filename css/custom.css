@@ -35,7 +35,7 @@ p {
 }
 
 /*making fonts smaller for smaller screens*/
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   h1 {
     font-size: 2.2em;
     font-style: bold;
@@ -68,7 +68,7 @@ p {
 }
 
 
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   .container-narrow, .row-fluid, .row {
     margin:0px;
     padding: 0px;
@@ -105,7 +105,7 @@ p {
   visibility:hidden;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   #section1 {
     height: 600px;
   }
@@ -162,7 +162,7 @@ p {
   text-shadow: 0px -1px 1px #FFF;   
 }
 
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   #logo {
     padding-top: 30px;
     padding-bottom: 0px;
@@ -189,7 +189,7 @@ p {
   height: auto;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   .stores img{
     margin-left: 15%;
     width: 70%;
@@ -236,7 +236,7 @@ p {
 
 
 /* Landscape phones and down */
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   #section2 {
     height: 870px;
   }
@@ -259,7 +259,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   #section3 {
     height: 860px;
   }
@@ -286,7 +286,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   #section4 {
     height: 740px;
   }
@@ -306,7 +306,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   #section5 {
     height: 790px;
   }
@@ -327,7 +327,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   #section6 {
     height: 700px;
   }
@@ -378,7 +378,7 @@ p {
 
 
 /* Landscape phones and down */
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   #contact_header {
     height:500px;
     background-size:auto 100%;
@@ -404,7 +404,7 @@ p {
 }
 
 /* Landscape phones and down */
-@media (max-width: 560px) {
+@media (max-width: 570px) {
   #contact_body {
     height: 670px;
   }
