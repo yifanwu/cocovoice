@@ -78,7 +78,7 @@ p {
 
 #section1 {
   height:511px;
-  background: url(../assets/header_bg.jpg) no-repeat;        
+  background: url(../assets/header_bg.jpg) center no-repeat;        
   background-size: auto 100%;
 }
 
@@ -185,44 +185,33 @@ p {
 }
 
 .stores img {
-  width: 140%;
+  width: 150px;
   height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (max-width: 570px) {
   .stores img{
-    margin-left: 15%;
-    width: 70%;
+    width: 180px;
   }
 }
 
 
 #section2, #section4, #section6{
   background: white;  
-  height: 530px;
+  height: 500px;
   color: #545454;
   margin-left: 0px;
 }
 
 #section2 #backimg2 {
   margin-top: 30px;
-  margin-left: 20%;
-  background: url(../assets/ptt_hand.jpg) no-repeat;
-  background-size: 90% auto;
-  height: 460px;
+  background: url(../assets/hand.png) center no-repeat;
+  background-size:auto 90%;
+  height: 490px;
   
-}
-
-#ptt_girl{
-  padding-top: 40px;
-  padding-right: 30%;
-  float: right;
-}
-
-#ppt_boy {
-  padding-top: 160px;
-  margin-left: -40px;
-  float:left;
 }
 
 #section2 img {
@@ -241,9 +230,9 @@ p {
     height: 870px;
   }
   #section2 #backimg2 {
-    background-size: 100% auto;
+    background-size: 80% auto;
     height: 420px;
-  }
+  }  
 }
 
 #section3, #section5 {
@@ -252,10 +241,8 @@ p {
 
 #section3 #backimg3 {
   height: 460px;
-  background: url(../assets/groupchat_phone.png) no-repeat;
+  background: url(../assets/groupchat_phone.png) center no-repeat;
   background-size:auto 100%;
-  margin-right:auto; margin-left:0px;
-
 }
 
 /* Landscape phones and down */
@@ -266,18 +253,17 @@ p {
 
   #section3 #backimg3 {
     height: 420px;
-    margin-left: 5%;
-    background-size:90% auto; 
-
+    margin-left: auto;
+    background-size:auto 100%; 
+    margin-bottom: 10%;
   }
 }
 
 #section4 #backimg4 {
   margin-top: 60px;
-  margin-left: 10%;
   height: 370px;
-  background: url(../assets/winks_coverflow.jpg) no-repeat;
-  background-size:90% auto;  
+  background: url(../assets/winks_coverflow.jpg) center no-repeat;
+  background-size:70% auto;  
 }
 
 
@@ -291,18 +277,15 @@ p {
     height: 740px;
   }
   #section4 #backimg4 {
-    margin-left: 5%;
-    background-size:90% auto; 
+    background-size:auto 90%; 
     height: 250px;
   }
 }
 
 #section5 #backimg5 {
   height: 420px;
-  background: url(../assets/questions_phone.png) no-repeat;
+  background: url(../assets/questions_phone.png) center no-repeat;
   background-size:auto 100% ;  
-  margin-right:auto; margin-left:0px;
-
 }
 
 /* Landscape phones and down */
@@ -311,18 +294,16 @@ p {
     height: 790px;
   }
   #section5 #backimg5 {
-    margin-left: 5%;
-    background-size:90% auto; 
+    background-size:auto 100% ; 
     height: 400px;
+    margin-bottom: 10%;
   }
 }
 
 #section6 #backimg6 {
-
-  height: 400px;
-  margin: 40px 0px 0px 100px;
-  background: url(../assets/publicchat_earth.png) no-repeat;
-  background-size:90% auto;  
+  height: 420px;
+  background: url(../assets/publicchat_earth.png) center no-repeat;
+  background-size:70% auto;  
 
 }
 
@@ -332,15 +313,14 @@ p {
     height: 700px;
   }
   #section6 #backimg6 {
-    margin-left: 5%;
-    background-size:90% auto; 
+    background-size:auto 90%; 
     height: 230px;
 
   }
 }
 #footnote {
   margin-top: 10px;
-  background: url(../assets/footer_c.png) no-repeat;
+  background: url(../assets/footer_c.png) center no-repeat;
   background-position:top center;
   position: relative;  
   height: 30px;
@@ -372,7 +352,7 @@ p {
 
 #contact_header {
   height:300px;
-  background: url(../assets/green_background.png) no-repeat;        
+  background: url(../assets/green_background.png) center no-repeat;        
   background-size:auto 100%;
 }
 
