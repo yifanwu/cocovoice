@@ -238,7 +238,7 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section2 {
-    height: 880px;
+    height: 870px;
   }
   #section2 #backimg2 {
     background-size: 100% auto;
@@ -261,7 +261,7 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section3 {
-    height: 870px;
+    height: 860px;
   }
 
   #section3 #backimg3 {
@@ -308,7 +308,7 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #section5 {
-    height: 700px;
+    height: 710px;
   }
   #section5 #backimg5 {
     margin-left: 5%;
