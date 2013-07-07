@@ -78,7 +78,7 @@ p {
 
 #section1 {
   height:511px;
-  background: url(../assets/header_bg.jpg) center no-repeat;        
+  background: url(../assets/header_bg.jpg) no-repeat;        
   background-size: auto 100%;
 }
 
@@ -107,7 +107,7 @@ p {
 
 @media (max-width: 570px) {
   #section1 {
-    height: 600px;
+    height: 570px;
   }
 
   #header {    
