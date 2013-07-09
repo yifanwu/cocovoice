@@ -1,3 +1,17 @@
+/* fonts*/
+@font-face {
+  font-family: 'Coquette';
+  src: url('../assets/Coquette Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../assets/HelveticaNeueLTStd-Th.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*this gets rid of the weird margin seen on phones*/
 html,body {
   padding:0; 
@@ -25,7 +39,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 p {
@@ -34,28 +48,7 @@ p {
 
 }
 
-/*making fonts smaller for smaller screens*/
-@media (max-width: 570px) {
-  h1 {
-    font-size: 2.2em;
-    font-style: bold;
-  }
 
-  h2 {
-    font-size: 1.6em;
-    line-height: 100%;
-  }
-
-  h3 {
-    font-size: 1.4em;
-    line-height: 100%;
-  }
-
-  p {
-    font-size: 1.3em;
-    line-height: 120%;
-  }
-}
 /* Custom container */
 .container-narrow {
   margin:0 auto;
@@ -67,15 +60,6 @@ p {
   box-shadow: 0px 3px 10px rgb(100,100,100);
 }
 
-
-@media (max-width: 570px) {
-  .container-narrow, .row-fluid, .row {
-    margin:0px;
-    padding: 0px;
-    width: 100%;
-  }
-}
-
 #section1 {
   height:511px;
   background: url(../assets/header_bg.jpg) no-repeat;        
@@ -83,16 +67,19 @@ p {
 }
 
 .inner {
-  padding: 40px 70px 20px 50px;
+  padding: 40px 70px 20px 70px;
 }
 
 .inner_text {
-  padding: 40px 20% 20px 0px;
+  padding: auto 70px auto 0px;
+}
+
+.header_text {
+  padding-left: 70px;
 }
 
 #header {
-  padding: 10px;
-  margin-bottom: 40px;
+  padding: 40px 70px 20px 70px;
   height: 80px;
 }
 
@@ -105,219 +92,99 @@ p {
   visibility:hidden;
 }
 
-@media (max-width: 570px) {
-  #section1 {
-    height: 570px;
-  }
-
-  #header {    
-    text-align: center;
-    height: 120px;
-  }
-
-  #language_button {
-    float: none;
-    visibility:hidden;
-    height: 0px;
-    pointer-events: none;
-  }
-
-  #language_select {
-    visibility:visible;
-  }
-
-
-  .inner {
-    padding: 5%;
-    margin: 0% 5% 5% 5%;
-  }
-  .inner_text {
-    padding: 5%;
-    margin: 0% 5% 5% 5%;
-  }
-}
-
 #logo {
   float:left;
-  padding-bottom: 20px;
 }
 
 #tag_line {
-
-  font-size: 25px;
-  margin-left: 20px;  
   color: white;
 }
 
 #description {
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 20px;
-  font-size: 15px;
-  margin-left: 20px;  
   color: white;
   width:45%;
+  float: left;
 }
 
 #tag_line, #description {
-  text-shadow: 0px -1px 1px #FFF;   
-}
-
-@media (max-width: 570px) {
-  #logo {
-    padding-top: 30px;
-    padding-bottom: 0px;
-    width: 100%;
-  }
-  #tag_line {
-    margin-left: 5%;
-    font-size:20px;
-  }
-  #description {
-    margin-left: 5%;
-
-    width: 90%;
-  }
-
+  text-shadow: 0px -1px 0px #000;   
 }
 
 .stores {
   padding-top: 10px;  
+  padding-left: 70px;
 }
 
-.stores img {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+.stores_h {
+  width: 200px;
+  padding: 40px 0px 20px 70px;
+  float: left;
 }
 
-@media (max-width: 570px) {
-  .stores img{
-    width: 180px;
-  }
-}
 
+.demo {
+  padding-left: 70px;
+}
 
 #section2, #section4, #section6{
   background: white;  
-  height: 500px;
   color: #545454;
   margin-left: 0px;
 }
 
-#section2 #backimg2 {
-  margin-top: 30px;
-  background: url(../assets/hand.png) center no-repeat;
-  background-size:auto 90%;
-  height: 490px;
-  
+#section2 {
+  height: 810px;  
 }
 
-#section2 img {
-  height: 100px;
+#backimg2 {
+  height: 810px;  
+  width: 600px;
 }
 
-#setion2 .right_col {
-  padding-top: 40px;
-  background: white;  
-}
-
-
-/* Landscape phones and down */
-@media (max-width: 570px) {
-  #section2 {
-    height: 870px;
-  }
-  #section2 #backimg2 {
-    background-size: 80% auto;
-    height: 420px;
-  }  
+.text_right {
+  padding-top: 120px;
+  padding-left: 50px;
+  float: right;
 }
 
 #section3, #section5 {
   background: url(../assets/bg_gray_tile.jpg);
 }
 
-#section3 #backimg3 {
-  height: 460px;
-  background: url(../assets/groupchat_phone.png) center no-repeat;
-  background-size:auto 100%;
+#section3 {
+  height: 540px;
 }
 
-/* Landscape phones and down */
-@media (max-width: 570px) {
-  #section3 {
-    height: 860px;
-  }
-
-  #section3 #backimg3 {
-    height: 420px;
-    margin-left: auto;
-    background-size:auto 100%; 
-    margin-bottom: 10%;
-  }
+#backimg3 {
+  height: 540px;
 }
 
-#section4 #backimg4 {
+#section4 {
+  height: 566px;
+}
+
+#backimg4 {
   margin-top: 60px;
-  height: 370px;
-  background: url(../assets/winks_coverflow.jpg) center no-repeat;
-  background-size:70% auto;  
+  margin-left: -50px;
+  height: 486px;
 }
 
-
-#section4, #section6 {
-  height: 450px;
-}
-
-/* Landscape phones and down */
-@media (max-width: 570px) {
-  #section4 {
-    height: 740px;
-  }
-  #section4 #backimg4 {
-    background-size:auto 90%; 
-    height: 250px;
-  }
-}
-
-#section5 #backimg5 {
+#backimg5 {
   height: 420px;
-  background: url(../assets/questions_phone.png) center no-repeat;
-  background-size:auto 100% ;  
 }
 
-/* Landscape phones and down */
-@media (max-width: 570px) {
-  #section5 {
-    height: 790px;
-  }
-  #section5 #backimg5 {
-    background-size:auto 100% ; 
-    height: 400px;
-    margin-bottom: 10%;
-  }
+#section6 {
+  height: 522px;
 }
 
-#section6 #backimg6 {
-  height: 420px;
-  background: url(../assets/publicchat_earth.png) center no-repeat;
-  background-size:70% auto;  
-
+#backimg6 {
+  margin-top: 60px;
+  height: 462px;
+  padding-left: 30px;
 }
 
-/* Landscape phones and down */
-@media (max-width: 570px) {
-  #section6 {
-    height: 700px;
-  }
-  #section6 #backimg6 {
-    background-size:auto 90%; 
-    height: 230px;
-
-  }
-}
 #footnote {
   margin-top: 10px;
   background: url(../assets/footer_c.png) center no-repeat;
@@ -337,37 +204,12 @@ p {
   margin-left: 3%; 
 }
 
-@font-face {
-  font-family: 'Coquette';
-  src: url('../assets/Coquette Bold.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'HelveticaNeue';
-  src: url('../assets/HelveticaNeueLTStd-Th.otf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-#contact_header {
+#other_header {
   height:300px;
   background: url(../assets/green_background.png) center no-repeat;        
   background-size:auto 100%;
 }
 
-
-/* Landscape phones and down */
-@media (max-width: 570px) {
-  #contact_header {
-    height:500px;
-    background-size:auto 100%;
-  }
-  #bottom_row {
-    margin-left: 0; 
-  }
-
-}
 
 #contact_body {
   background: white;
@@ -383,14 +225,6 @@ p {
   padding: 10px 0px 0px 60px;
 }
 
-/* Landscape phones and down */
-@media (max-width: 570px) {
-  #contact_body {
-    height: 670px;
-  }
-
-}
-
 #contact_body a {
   color: #72bb01;
 }
@@ -399,3 +233,4 @@ p {
 #terms_body {
   padding: 20px;
 }
+

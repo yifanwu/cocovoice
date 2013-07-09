@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Coco Voice</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
+
   <meta name="description" content="Coco Voice Website">
   <meta name="author" content="Yifan Wu">
 
@@ -11,7 +12,7 @@
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/bootstrap-responsive.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
-  <link href="css/spanish.css" rel="stylesheet">
+  <link href="css/mobile.css" rel="stylesheet">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -24,63 +25,55 @@
 
 <div class="container-narrow row-fluid ">
   <div id="section1">
-    <div class="inner">
       <div id="header">
         <select id="language_select" onchange="location = this.options[this.selectedIndex].value;">
           <option value="index.html">English</option>
           <option value="index_spanish.html" selected="selected">Spanish</option>
         </select>
+
         <div id="language_button" class="btn-group">
           <a class="btn dropdown-toggle btn-success" data-toggle="dropdown" href="#">
-            Spanish
+            English
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-              <li><a href="index.html">English</a></li>
+              <li><a href="index_spanish.html">Spanish</a></li>
           </ul>
         </div>
-
 
         <a href="index.html"> <img id="logo" src="assets/header_coco_logo.png"></a>
         
       </div>
-      <h3 id="tag_line" class="span12">mas cercano que texto</h3>
-      <p id="description" class="span12">Nosotros creemos que Coco Voice es la nueva ola en comunicación móvil, pero mejor pruébalo tu mismo!</p>
-      <div class="stores span2" style="clear:left;">
-        <a href="http://itunes.apple.com/us/app/coco-voice/id449598981?mt=8&uo=4">
-          <img src="assets/header_dl_apple.png">
-        </a>
+      <div class="header_text">
+        <h2 id="tag_line">mas cercano que texto</h2>
+        <p id="description">Nosotros creemos que Coco Voice es la nueva ola en comunicación móvil, pero mejor pruébalo tu mismo!</p>
       </div>
-      <div class="stores span2">
-        <a href="http://market.android.com/details?id=com.instanza.cocovoice">
-          <img src="assets/header_dl_android.png">
-        </a>
-      </div>
-    </div><!--inner-->
+        <div class="stores" style="clear:left;">
+          <a href="http://itunes.apple.com/us/app/coco-voice/id449598981?mt=8&uo=4">
+            <img src="assets/header_dl_apple.png">
+          </a>
+        </div>
+        <div class="stores">
+          <a href="http://market.android.com/details?id=com.instanza.cocovoice">
+            <img src="assets/header_dl_android.png">
+          </a>
+        </div>
   </div><!--section one-->
 
   <div id="section2">
-    <div class="row">
       <div class="span6">
-        <div id="backimg2">
-        </div><!--backimg-->
-
+        <img id="backimg2" class="demo" src="assets/hand.png">
       </div><!--left column-->
-      <div id="right_col" class="span6">
-        <div class="inner_text">
+        <div class="text_right span5">
           <h1>mensajes de voz</h1><br>
           <h3>presiona el botón para hablar<br>dale a tus dedos un descanso</h3>
           <p>Ademas de enviar mensajes de texto y foto, puedes enviar mensajes de voz a un amigo o a un grupo de amigos. Ahora puedes conversar sin la necesidad de escribir largas frases.</p>
-        </div><!--inner-->
-
-      </div><!--right column-->
-    </div><!--row-->
+        </div><!---->
   </div><!--section two-->
 
   <div id="section3">
-    <div class="row">
       <div class="span6" style="float:right;">
-        <div id="backimg3"></div>
+          <img id="backimg3" class="demo"src="assets/groupchat_phone.png">
       </div><!--right col-->
 
       <div class="span6">
@@ -88,30 +81,25 @@
           <h1>chat en grupo</h1>
           <h3>invita a tus amigos y <br>compartan todos juntos</h3>
           <p>El chat en grupo te permite organizar tu fin de semana con amigos, coordinar una reunión de trabajo con tus colegas, planear una asado en familia el fin de semana con tus hermanos, y mucho mas!</p>
-        </div><!--inner-->
+          </div><!--inner-->
       </div><!--span text-->
-    </div><!--row-->
   </div><!--section three GROUP CHAT-->
 
   <div id="section4">
-    <div class="row">
-      <div class="span6">
-        <div id="backimg4"></div>
+      <div class="span6" style="float:left;">
+        <img id="backimg4" class="demo" src="assets/winks_coverflow.jpg">
       </div><!--right col-->
-      <div class="span6">
-        <div class="inner_text">
+        <div class="text_right span5">
           <h1>guiños</h1>
           <h3>ves alguna chica/o de tu gusto?<br>hazles saber</h3>
           <p>Guiños te ayuda a romper el hielo, expandir tu circulo de amigos y conocer gente nueva. Guiños es fácil de usar y te permite descubrir otros usuarios de coco voice. Puedes usar guiños para enviar un corto saludo, o para conocer mejor a alguien de tu gusto.</p>
         </div><!--inner-->
-      </div><!--span6-->
-    </div><!--row-->
   </div><!--section4 WINKS-->
 
   <div id="section5">
     <div class="row">
       <div class="span6" style="float:right;">
-        <div id="backimg5"></div>
+        <img id="backimg5" class = "demo" src="assets/questions_phone.png">
       </div><!--right col right-->
 
       <div class="span6">
@@ -125,38 +113,34 @@
   </div><!--section 5-->
 
   <div id="section6">
-    <div class="row">
       <div class="span6">
-        <div id="backimg6"></div>
+        <img id="backimg6" src="assets/publicchat_earth.png">
       </div><!--right col right-->
 
-      <div class="span6">
-        <div class="inner_text">
-          <h1>salas de chat</h1>
-          <h3>conversa de lo que quieras<br>con quien quieras<br>en cualquier parte del mundo</h3>
-          <p>Conectate con amigos, conocidos o personas alrededor del mundo.  Participa de interesantes y divertidas discusiones sobre música, deportes o otros temas de tu interés.  Conoce gente con ideas parecidas, o aprende nuevos puntos de vista.</p>
-        </div><!--inner-->
+      <div class="text_right span5">
+        <h1>salas de chat</h1>
+        <h3>conversa de lo que quieras<br>con quien quieras<br>en cualquier parte del mundo</h3>
+        <p>Conectate con amigos, conocidos o personas alrededor del mundo.  Participa de interesantes y divertidas discusiones sobre música, deportes o otros temas de tu interés.  Conoce gente con ideas parecidas, o aprende nuevos puntos de vista.</p>
       </div><!--span6 left-->
-    </div><!--row-->
   </div><!--section 6-->
 
   <div id="footnote">
   </div>
 
   <div id="bottom_row" class="row">
-      <div class="span3">
-        <h2><a href="contact.html">contact</a></h2>
-      </div>
-      <div class="span3">
-        <h2><a href="about_spanish.html">about</a></h2>
-      </div>
-      <div class="span3">
-        <h2><a href="terms.html">terms</a></h2>
-      </div>
-      <div class="span3">
-        <h2><a href="faq.html">help</a></h2>
-      </div>
+    <div class="span3">
+      <h2><a href="contact.html">contact</a></h2>
     </div>
+    <div class="span3">
+      <h2><a href="about.html">about</a></h2>
+    </div>
+    <div class="span3">
+      <h2><a href="terms.html">terms</a></h2>
+    </div>
+    <div class="span3">
+      <h2><a href="faq.html">help</a></h2>
+    </div>
+  </div>
 
   <div class="footer">
     <p>2013 &copy; Instanza Inc.</p>

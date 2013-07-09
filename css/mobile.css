@@ -1,0 +1,173 @@
+
+
+/*making fonts smaller for smaller screens*/
+@media (max-width: 570px) {
+  h1 {
+    font-size: 2.2em;
+    font-style: bold;
+  } 
+
+  h2 {
+    font-size: 1.7em;
+    line-height: 100%;
+  }
+
+  h3 {
+    font-size: 1.4em;
+    line-height: 100%;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 120%;
+  }
+  
+  /* classes */
+  .container-narrow, .row-fluid, .row {
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .demo {
+    padding-left: 10%;
+    padding-bottom: 40px;
+  }
+
+  .inner {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .text_right {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  @media (height: 568px;){
+    /*IDs*/
+    #section1 {
+      height: 568px;
+    }
+  }
+
+  #section1 {
+    height: 480px;
+  }
+
+  .stores {
+    padding-left: 0px;
+  }
+
+  .stores img, .stores_h img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+  #header {    
+    text-align: center;
+    height: 120px;
+  }
+
+  #language_button {
+    float: none;
+    visibility:hidden;
+    height: 0px;
+    pointer-events: none;
+  }
+
+  #language_select {
+    visibility:visible;
+  }
+
+  #logo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+
+  }
+  #tag_line {
+    padding-top: 0px;
+    font-size:20px;
+  }
+  #description {
+    padding-top: 0px;
+    width: 90%;
+  }
+
+  #section2 {
+    height: 870px;
+  }
+
+  #backimg2 {
+    width: 80%;
+    height: auto;
+    padding-bottom: -40px ! important ;
+
+  }  
+
+  #section3 {
+    height: 860px;
+  }
+  
+  #backimg3 {
+    width: 80%;
+    height: auto;
+  }
+
+  #section4 {
+    height: 740px;
+  }
+  
+  #backimg4 {
+    width: 80%;
+    height: auto;
+    margin-left: 0px;
+
+  }
+
+  #section5 {
+    height: 740px;
+  }
+  
+  #backimg5 {
+    width: 80%;
+    height: auto;
+  }
+
+  #section6 {
+    height: 700px;
+  }
+
+  #backimg6 {
+    width: 80%;
+    height: auto;
+  }
+
+  @media (height: 568px;){
+    /*IDs*/
+    #other_header {
+      height: 568px;
+    }
+  }
+  /*non-index pages*/
+  #other_header {
+    height:480px;
+    background-size:auto 100%;
+  }
+
+  .stores_h {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+
+  #bottom_row {
+    margin-left: 0; 
+  }
+  #contact_body {
+    height: 670px;
+  }
+}
