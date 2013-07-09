@@ -117,11 +117,12 @@
   }
   
   #section2 {
-    height: 700px;
+    height: 760px;
   }
 
   #section2container {
     height: 360px;
+    max-height: 360px;
   }
 
   #backimg2 {
