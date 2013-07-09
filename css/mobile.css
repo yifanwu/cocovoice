@@ -46,12 +46,12 @@
   @media (height: 568px;){
     /*IDs*/
     #section1 {
-      height: 568px;
+      height: 540px;
     }
   }
 
   #section1 {
-    height: 480px;
+    height: 460px;
   }
 
   .stores {
