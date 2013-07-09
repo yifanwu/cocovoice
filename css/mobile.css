@@ -63,7 +63,7 @@
     width: 40%;
   }
 
-  .stores img, #store_h img, #store_l img { 
+  .stores img, .stores_h img{ 
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
@@ -184,20 +184,16 @@
     background-size:auto 100%;
   }
 
-  #stores_h, #stores_l{
+  
+  #store_container {
+    padding-top: 80px;  
+  }
+
+  .stores_h{
     width: 100%;
     padding: 0px;
     margin: 0px;
-  }
-
-  #store_h {
-    padding-top: 40px;  
-    padding-bottom: 10px;  
-  }
-
-  #store_l {
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 
   #bottom_row {
