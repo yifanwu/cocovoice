@@ -70,6 +70,8 @@
     height: 120px;
     padding-left: 0px !important;
     padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   .header_text {
@@ -85,6 +87,9 @@
 
   #language_select {
     visibility:visible;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
   }
 
   #logo {
@@ -97,8 +102,7 @@
   }
   #tag_line {
     padding-top: 0px;
-    font-s
-    ize:20px;
+    font-size:20px;
   }
   #description {
     padding-top: 0px;
