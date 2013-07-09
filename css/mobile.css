@@ -68,6 +68,12 @@
   #header {    
     text-align: center;
     height: 120px;
+    padding-left: 0px !important;
+    padding-right: 0px;
+  }
+
+  .header_text {
+    padding-left: 10%;
   }
 
   #language_button {
@@ -84,16 +90,19 @@
   #logo {
     padding-top: 0px;
     padding-bottom: 0px;
-    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
 
   }
   #tag_line {
     padding-top: 0px;
-    font-size:20px;
+    font-s
+    ize:20px;
   }
   #description {
     padding-top: 0px;
-    width: 90%;
+    width: 100%;
   }
 
   #section2 {
