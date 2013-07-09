@@ -117,12 +117,11 @@ p {
   padding-left: 70px;
 }
 
-.stores_h {
+#store_h, #store_l {
   width: 200px;
   padding: 40px 0px 20px 70px;
   float: left;
 }
-
 
 .demo {
   padding-left: 70px;

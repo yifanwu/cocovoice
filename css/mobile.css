@@ -184,10 +184,18 @@
     background-size:auto 100%;
   }
 
-  .stores_h {
+  #stores_h, #stores_l{
     width: 100%;
     padding: 0px;
     margin: 0px;
+  }
+
+  #store_h {
+    padding-top: 30px;    
+  }
+
+  #store_l {
+    padding-top: 5px;
     padding-bottom: 20px;
   }
 
