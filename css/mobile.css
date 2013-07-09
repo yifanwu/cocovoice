@@ -76,6 +76,7 @@
 
   .header_text {
     padding-left: 10%;
+    padding-right: 10%;
   }
 
   #language_button {
@@ -108,20 +109,22 @@
     padding-top: 0px;
     width: 100%;
   }
-
+  /*
   #section2 {
     height: 870px;
-  }
+  }*/
 
+  #section2container {
+    height: 420px;
+  }
   #backimg2 {
-    width: 80%;
+    width: 100%;
     height: auto;
     padding-bottom: -40px ! important ;
-
   }  
-
+  
   #section3 {
-    height: 860px;
+    height: 820px;
   }
   
   #backimg3 {
@@ -130,7 +133,7 @@
   }
 
   #section4 {
-    height: 740px;
+    height: 700px;
   }
   
   #backimg4 {
@@ -141,7 +144,7 @@
   }
 
   #section5 {
-    height: 740px;
+    height: 700px;
   }
   
   #backimg5 {
@@ -150,7 +153,7 @@
   }
 
   #section6 {
-    height: 700px;
+    height: 720px;
   }
 
   #backimg6 {
