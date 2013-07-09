@@ -122,6 +122,9 @@
 
   #section2container {
     height: 360px;
+  }
+
+  #section2container img {
     max-height: 360px;
   }
 
