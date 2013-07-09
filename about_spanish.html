@@ -21,37 +21,39 @@
 
 <body>
   <div class="container-narrow row-fluid ">
-    <div id="contact_header">
-    <div class="inner">
+    <div id="other_header">
       <div id="header">
         <select id="language_select" onchange="location = this.options[this.selectedIndex].value;">
-          <option value="about.html" selected="selected">English</option>
-          <option value="about_spanish.html">Spanish</option>
+          <option value="index.html" selected="selected">English</option>
+          <option value="index_spanish.html">Spanish</option>
         </select>
+
         <div id="language_button" class="btn-group">
           <a class="btn dropdown-toggle btn-success" data-toggle="dropdown" href="#">
-            Spanish
+            English
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-              <li><a href="about.html">English</a></li>
+              <li><a href="index_spanish.html">Spanish</a></li>
           </ul>
         </div>
 
-        <a href="index.html"> <img id="logo" src="assets/header_coco_logo.png"></a> 
+        <a href="index.html"> <img id="logo" src="assets/header_coco_logo.png"></a>
+        
       </div>
-      <div class="stores span2" style="clear:left;">
+      <div id="store_container">
+      <div class="stores_h">
         <a href="http://itunes.apple.com/us/app/coco-voice/id449598981?mt=8&uo=4">
           <img src="assets/header_dl_apple.png">
         </a>
       </div>
-      <div class="stores span2">
+      <div class="stores_h">
         <a href="http://market.android.com/details?id=com.instanza.cocovoice">
           <img src="assets/header_dl_android.png">
         </a>
       </div>
-    </div><!--inner-->
-    </div><!--section one-->
+      </div>
+  </div><!--section one-->
 
     <div id="about_body">
       <div class="inner">
