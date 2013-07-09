@@ -56,7 +56,10 @@
   }
 
   .stores {
-    padding-left: 0px;
+    float: left;
+    padding-left: 5%;    
+    padding-right: 5%;
+    width: 40%;
   }
 
   .stores img, .stores_h img { 
@@ -75,8 +78,9 @@
   }
 
   .header_text {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%
   }
 
   #language_button {
