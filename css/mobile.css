@@ -1,7 +1,5 @@
-
-
 /*making fonts smaller for smaller screens*/
-@media (max-width: 570px) {
+@media (max-width: 480px) {
   h1 {
     font-size: 2.2em;
     font-style: bold;
@@ -180,20 +178,20 @@
   }
   /*non-index pages*/
   #other_header {
-    height:480px;
+    height:260px;
     background-size:auto 100%;
   }
-
   
   #store_container {
     padding-top: 40px;  
   }
 
   .stores_h{
-    width: 100%;
+    width: 30%;
     padding: 0px;
     margin: 0px;
     padding-bottom: 30px;
+    padding-left: 10%
   }
 
   #bottom_row {
@@ -203,3 +201,9 @@
     height: 670px;
   }
 }
+
+/* horizontal view */
+@media (max-width: 570px) {
+
+}
+
