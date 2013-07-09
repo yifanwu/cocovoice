@@ -100,6 +100,7 @@
 
   #logo {
     padding-top: 0px;
+    padding-left:0px; 
     padding-bottom: 0px;
     padding-left: 5%;
     padding-right: 5%;
@@ -114,14 +115,15 @@
     padding-top: 0px;
     width: 100%;
   }
-  /*
+  
   #section2 {
-    height: 870px;
-  }*/
+    height: 700px;
+  }
 
   #section2container {
-    height: 420px;
+    height: 360px;
   }
+
   #backimg2 {
     width: 80%;
     height: auto;
@@ -129,7 +131,7 @@
   }  
   
   #section3 {
-    height: 820px;
+    height: 780px;
   }
   
   #backimg3 {
@@ -149,7 +151,7 @@
   }
 
   #section5 {
-    height: 700px;
+    height: 680px;
   }
   
   #backimg5 {
