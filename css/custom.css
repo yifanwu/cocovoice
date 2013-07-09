@@ -116,8 +116,7 @@ p {
   padding-top: 10px;  
   padding-left: 70px;
 }
-
-#store_h, #store_l {
+.stores_h {
   width: 200px;
   padding: 40px 0px 20px 70px;
   float: left;
