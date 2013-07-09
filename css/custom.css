@@ -86,7 +86,9 @@ p {
 #language_button {
   float: right;
   padding-top: 10px;
+  font-family: Arial;
   font-weight: bolder;
+
 }
 
 #language_select {
